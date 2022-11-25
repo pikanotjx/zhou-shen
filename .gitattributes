@@ -1,3 +1,5 @@
 /music/BigFish.wav filter=lfs diff=lfs merge=lfs -text
 /src/img/header.png filter=lfs diff=lfs merge=lfs -text
 /src/img/zhoushen.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/friendship_under_the_summer_sky.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/nice_to_meet_you.png filter=lfs diff=lfs merge=lfs -text
