@@ -4,25 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zhou Shen</title>
+    <meta name="description" content="生米 - 周深">
+    <title>周深</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+    <script src="https://use.fontawesome.com/bab85aac4f.js"></script>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="myscripts.js"></script>
+    <script type="text/javascript" src="myscripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Create site header -->
     <header>
-        <h1 class="zhoushen-title">Zhou Shen</h1>
+        <a href="/" class="zhoushen-title"><h1>周深</h1></a>
         <nav>
             <ul class="navbar">
-                <li><a href="music.html">Music</a></li>
-                <li><a href="concerts.html">Concerts</a></li>
-                <li><a href="shows.html">Shows</a></li>
+                <li><a href="#">歌曲</a></li>
+                <li><a href="#">节目</a></li>
+                <li><a href="#">演唱会</a></li>
             </ul>
         </nav>
+        <button onclick="openMenu()" class="menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
     </header>
+    <div id="mobile__menu" class="overlay">
+        <button onclick="openMenu()" class="close">&times;</button>
+        <div id="overlay" class="overlay__content">
+            <a href="#">歌曲</a>
+            <a href="#">节目</a>
+            <a href="#">演唱会</a>
+        </div>
+    </div>
+
+    <!-- Create site main -->
+    <div id="homepage">
+        <div class="homepage_content odd">
+            <img class="homepage_image" src="\src\img\zhoushen1.jpg" cover>
+            <div class="homepage_text">
+                <h2>代表作</h2>
+                <br/>
+                <p>大鱼</p>
+            </div>
+        </div>
+        <div class="homepage_content even">
+            <img class="homepage_image" src="\src\img\zhoushen1.jpg" cover>
+            <div class="homepage_text">
+                <h2>代表作</h2>
+                <br/>
+                <p>大鱼</p>
+            </div>
+        </div>
+        <div class="homepage_content odd">
+            <img class="homepage_image" src="\src\img\zhoushen1.jpg" cover>
+            <div class="homepage_text">
+                <h2>代表作</h2>
+                <br/>
+                <p>大鱼</p>
+            </div>
+        </div>
+        <div class="homepage_content even">
+            <img class="homepage_image" src="\src\img\zhoushen1.jpg" cover>
+            <div class="homepage_text">
+                <h2>代表作</h2>
+                <br/>
+                <p>大鱼</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer_column">
+                <a href="#"><h4 class="column_header">歌曲</h4></a>
+                <a href="#">大鱼</a>
+                <a href="#">达拉崩吧</a>
+                <a href="#">Rubia</a>
+            </div>
+            <div class="footer_column">
+                <a href="#"><h4 class="column_header">节目</h4></a>
+                <a href="#">奔跑吧 第十季</a>
+                <a href="#">我们的歌 第一季</a>
+                <a href="#">中国好声音 第三季</a>
+            </div>
+            <div class="footer_column">
+                <a href="#"><h4 class="column_header">演唱会</h4></a>
+                <a href="#">TME "晚安 明天见" 线上演唱会</a>
+                <a href="#">周深C-929星球巡回演唱会</a>
+                <a href="#">深空间</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 周深工作室</p>
+    </footer>
 </body>
 </html>
