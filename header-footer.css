@@ -171,3 +171,18 @@ footer {
     align-items: flex-start;
 }
 }
+
+
+@media only screen {
+    .navbar {
+        display: none;
+    }
+    .menu {
+        display: initial;
+    }
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    }
