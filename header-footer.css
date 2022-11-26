@@ -3,6 +3,10 @@
     background: transparent;
 }
 
+h1{
+    margin: 30px;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
