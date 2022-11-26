@@ -114,3 +114,9 @@ h2 {
         width: fit-content;
     }
 }
+
+@media (max-width: @iphone-screen) {
+.section1, .section3 {
+    background-attachment: scroll;
+}
+}
