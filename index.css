@@ -93,6 +93,7 @@ h2 {
     .section1 {
         background-image: url("/src/img/zhoushenhighres3_mobile.jpg") cover;
         -webkit-background-size:cover;
+        -webkit-background-attachment: fixed;
     }
     .album_section {
         background-image: linear-gradient(transparent, #24252a);
