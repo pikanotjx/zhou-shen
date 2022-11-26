@@ -42,6 +42,10 @@
 }
 
 @media (any-hover: none) {
+.music_content:hover {
+    background-color: transparent;
+}
+
 .music_page {
     row-gap: 40px;
 }
