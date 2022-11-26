@@ -1,65 +1,75 @@
-* {
-    box-sizing: border-box;
+h2 {
+    margin: 0;
+}
+
+.section1 {
+    background-image: url("/src/img/zhoushenhighres3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 120vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
-  }
-
-body {
-    width: 100%;
 }
 
-.homepage {
+.section2 {
+    background-color: #24252a;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     border: none;
+    padding: 0;
 }
 
-.homepage_content{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    border: none;
-    height: fit-content;
+.album_section {
+    position: absolute;
+    top: 30vh;
+    left: 10%;
 }
 
-.odd {
-    display: flex;
-    flex-direction: row;
+.album {
+    width: fit-content;
 }
 
-.even {
-    display: flex;
-    flex-direction: row-reverse;
+.album_pic img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
 }
 
-.homepage_image {
-    background-color: black;
-    width: 70%;
-    height: fit-content;
-    border: none;
+.album_pic:hover{
+    opacity: 0.7;
 }
 
-.homepage_text {
-    background-color: black;
+.music_text {
     color: white;
-    width: 30%;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-size: 40px;
+    text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-.homepage_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section_header {
+    position: relative;
+    top: 5vh;
+    left: 7%;
+    color: white;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
 }
-.homepage_image {
-    width: 100%;
-}
-.homepage_text {
-    width: 100%;
-    padding: 10vh;
-}
+
+.section3 {
+    background-image: url("/src/img/zhoushenhighres1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 120vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
