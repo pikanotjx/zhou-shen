@@ -6,6 +6,10 @@ header {
     background-color: rgb(36, 37, 42) ;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .zhoushen-title {
     margin-right: auto;
     color: #fff;
