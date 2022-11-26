@@ -4,3 +4,15 @@
 /src/img/music/friendship_under_the_summer_sky.jpg filter=lfs diff=lfs merge=lfs -text
 /src/img/music/nice_to_meet_you.png filter=lfs diff=lfs merge=lfs -text
 /src/img/music/zhu_fu.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/bu_jian_jiu_san.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/bu_qun.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/bu_xiang_shui.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/can_dream.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/cassini.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/chu_chang.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/dream_path.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/hua_shen_gu_dao_de_jing.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/music/wang.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/zhoushenhighres2.png filter=lfs diff=lfs merge=lfs -text
+/src/img/zhoushenhighres3.jpg filter=lfs diff=lfs merge=lfs -text
+/src/img/zhoushenhighres3_mobile.jpg filter=lfs diff=lfs merge=lfs -text
