@@ -19,11 +19,11 @@ h2 {
 
 .section2 {
     background-color: #24252a;
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     margin: 0;
     border: none;
-    padding: 0;
+    padding: 0; 
     
 }
 
@@ -31,19 +31,15 @@ h2 {
     position: absolute;
     width: 100%;
     margin: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 30%;
 }
 
-.album1 {
-    position: absolute;
-    top: 400px;
-    left: 10%;
-    width: fit-content;
-}
 
-.album2 {
-    position: absolute;
-    top: 900px;
-    left: 10%;
+.album {
     width: fit-content;
 }
 
@@ -88,13 +84,58 @@ h2 {
     padding: 0;
 }
 
+.performances {
+    height: 100%;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    margin-top: 80px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 0;
+}
+
+.performances::-webkit-scrollbar {
+    height: 10px;
+    background: rgb(67, 71, 89);
+}
+
+.performances::-webkit-scrollbar-track {
+    border-radius: 30px;
+}
+
+.performances::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+  } 
+
+.perf_video {
+    height: 45vw;
+    filter: brightness(0.4);
+}
+
+.perf_video:hover {
+    filter: brightness(1);
+}
+
+.performance_text {
+    color: white;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+}
 
 @media screen and (max-width: 820px) {
     .section1 {
         background-image: url("/src/img/zhoushenhighres3_mobile.jpg") cover;
-        -webkit-background-size:cover;
+        height: 150vh;
     }
     .album_section {
+        padding-left: 0;
+        padding-top: 50vh;
         background-image: linear-gradient(transparent, #24252a);
         position: absolute;
         height: inherit;
@@ -114,4 +155,25 @@ h2 {
         left: 0;
         width: fit-content;
     }
+
+    .section2 {
+        height: fit-content;
+    }
+
+    .performances {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .perf_video {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .performance_text {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
 }
