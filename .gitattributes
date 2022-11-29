@@ -1,7 +1,6 @@
 src/videos/ filter=lfs diff=lfs merge=lfs -text
 src/videos/ filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
-/music/BigFish.wav filter=lfs diff=lfs merge=lfs -text
 /src/img/header.png filter=lfs diff=lfs merge=lfs -text
 /src/img/zhoushen.jpg filter=lfs diff=lfs merge=lfs -text
 /src/img/music/friendship_under_the_summer_sky.jpg filter=lfs diff=lfs merge=lfs -text
