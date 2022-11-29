@@ -1,0 +1,31 @@
+Main page
+    - brief introduction of zhou shen
+        - link to official weibo
+
+Other pages
+    - History
+    - concerts
+    - shows
+    - discography
+    - gallery
+    - fans
+
+History
+    Zhou Shen is a (current year - 1992) year old singer from China. 
+
+    +-----------+-------------------------------+
+    | Name      | Zhou Shen                     |
+    +-----------+-------------------------------+
+    | Alias     | Charlie Zhou                  |
+    +-----------+-------------------------------+
+    | Birthday  | 29 September 1992 (age)       |
+    +-----------+-------------------------------+
+    | Hometown  | Shaoyang, Hunan, China        |
+    +-----------+-------------------------------+
+    | Genre     | Mandopop                      |
+    +-----------+-------------------------------+
+    | Active    | 2014 - Present                |
+    +-----------+-------------------------------+
+    | Education | Lviv National Musical Academy |
+    +-----------+-------------------------------+
+
