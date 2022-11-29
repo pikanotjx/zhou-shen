@@ -1,4 +1,2 @@
 src/videos/ filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
-/src/videos/bujianjiusan.mp4 filter=lfs diff=lfs merge=lfs -text
-/src/videos/dalabengba.mp4 filter=lfs diff=lfs merge=lfs -text
