@@ -57,8 +57,8 @@
         <h2 class="section_header">Performances</h2>
         <section class="performances">
             <figure class="performancedetails">
-                <video class="perf_video" id="v1" src="src/videos/bujianjiusan.mp4" type="video/mp4" loop loading="lazy"></video>
-                <h3 class="performance_text">不见就散 (Hacken Lee)</h3>
+                <video class="perf_video" id="v1" src="src/videos/chase.mp4" type="video/mp4" loop loading="lazy"></video>
+                <h3 class="performance_text">追 (Hacken Lee)</h3>
                 <script>
                     let clip1 = document.querySelector("#v1");
     
@@ -73,7 +73,7 @@
             </figure>
 
             <figure class="performancedetails">
-            <video class="perf_video" id="v2" src="src/videos/dalabengba.mp4" type="video/mp4" loop loading="lazy"></video>
+                <video class="perf_video" id="v2" src="src/videos/dalabengba.mp4" type="video/mp4" loop loading="lazy"></video>
                 <h3 class="performance_text">达拉崩吧</h3>
                 <script>
                     let clip2 = document.querySelector("#v2");
@@ -93,13 +93,61 @@
                 <h3 class="performance_text">一路生花 (Angela Zhang)</h3>
                 <script>
                     let clip3 = document.querySelector("#v3");
-    
+                    
                     clip3.addEventListener("mouseenter", function(e) {
                     clip3.play();
                     })
-    
+
                     clip3.addEventListener("mouseout", function(e) {
                     clip3.pause();
+                    })
+                </script>
+            </figure>
+
+            <figure class="performancedetails">
+                <video class="perf_video" id="v4" src="src/videos/gotit.mp4" type="video/mp4" loop loading="lazy"></video>
+                <h3 class="performance_text">Got It (Mao Bu Yi)</h3>
+                <script>
+                    let clip4 = document.querySelector("#v4");
+    
+                    clip4.addEventListener("mouseenter", function(e) {
+                    clip4.play();
+                    })
+    
+                    clip4.addEventListener("mouseout", function(e) {
+                    clip4.pause();
+                    })
+                </script>
+            </figure>
+
+            <figure class="performancedetails">
+                <video class="perf_video" id="v5" src="src/videos/monsters.mp4" type="video/mp4" loop loading="lazy"></video>
+                <h3 class="performance_text">Monsters</h3>
+                <script>
+                    let clip5 = document.querySelector("#v5");
+                    
+                    clip5.addEventListener("mouseenter", function(e) {
+                    clip5.play();
+                    })
+
+                    clip5.addEventListener("mouseout", function(e) {
+                    clip5.pause();
+                    })
+                </script>
+            </figure>
+
+            <figure class="performancedetails">
+                <video class="perf_video" id="v6" src="src/videos/bigfish.mp4" type="video/mp4" loop loading="lazy"></video>
+                <h3 class="performance_text">大鱼</h3>
+                <script>
+                    let clip6 = document.querySelector("#v6");
+                    
+                    clip6.addEventListener("mouseenter", function(e) {
+                    clip6.play();
+                    })
+
+                    clip6.addEventListener("mouseout", function(e) {
+                    clip6.pause();
                     })
                 </script>
             </figure>

@@ -23,10 +23,6 @@ h2 {
 .section2 {
     background-color: #24252a;
     height: fit-content;
-    width: 100vw;
-    margin: 0;
-    border: none;
-    padding: 0; 
     
 }
 
@@ -69,6 +65,7 @@ h2 {
     position: relative;
     top: 5vh;
     left: 7%;
+    margin-bottom: 50px;
     color: white;
     font-family: 'ZCOOL KuaiLe', sans-serif;
     font-size: 80px;
@@ -92,30 +89,15 @@ h2 {
     width: inherit;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     left: 0;
     margin-top: 80px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
     padding-bottom: 0;
+    justify-content: space-around;
 }
-
-.performances::-webkit-scrollbar {
-    height: 10px;
-    background: rgb(67, 71, 89);
-}
-
-.performances::-webkit-scrollbar-track {
-    border-radius: 30px;
-}
-
-.performances::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
-    border-radius: 10px;
-  } 
 
 .perf_video {
-    height: 45vw;
+    height: 25vw;
     filter: brightness(0.4);
 }
 
@@ -126,7 +108,7 @@ h2 {
 .performance_text {
     color: white;
     font-family: 'ZCOOL KuaiLe', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 500;
     text-align: center;
     margin: 0;

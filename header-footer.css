@@ -1,17 +1,7 @@
 ::-webkit-scrollbar {
-    width: 6px;
-    background: rgb(36, 37, 42);
+    width: 0px;
+    background-color: transparent;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-    border-radius: 30px;
-
-}
-::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
-    border-radius: 10px;
-  }
 
 h1{
     margin: 30px;
