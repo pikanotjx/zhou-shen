@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周深 - 歌曲</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+    <script src="https://use.fontawesome.com/bab85aac4f.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="concerts.css">
+    <script>"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"</script>
+    <script type="text/javascript" src="myscripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+</head>
+
+<body>
+    <!-- Create site header -->
+    <header>
+        <a href="/" class="zhoushen-title"><h1>周深</h1></a>
+        <button onclick="openMenu()" class="menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <button onclick="openMenu()" class="close">&times;</button>
+        <div id="overlay" class="overlay__content">
+            <a href="/music.html">Songs</a>
+            <a href="/shows.html">Shows</a>
+            <a href="/concerts.html">Concerts</a>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+        <img src="src/img/tmelive.jpg" alt="Goodnight, See You Tomorrow" loading="lazy">
+            <section class="concert" id="tme">
+                <h2>TME "Goodnight, See You Tomorrow" Online Concert</h2>
+                <p class="date">25th July 2020</p>
+                <div class="concert_details">
+                    <p>Goodnight, See You Tomorrow is an online concert by Tencent Music Entertainment. </p>
+                    <p>It was held on 25th July 2020 and featured some of Zhou Shen's well known songs including 大鱼 (Big Fish) and 影 (Shadow).
+                    Live broadcasts were available through QQ Music, Kugou Music, Kuwo Music, Tencent WeSing, and Tencent WeSee. The concert video was later was released on YouTube.</p>
+                </div>
+                <div class="concert_video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0TfYACZrDto?start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3>Song List</h3>
+                <ul>
+                    <li>0:20 来不及勇敢 (Too Late to be Brave) </li>
+                    <li>4:34 雪花落下 (Snowflakes Falling)</li>
+                    <li>8:20 曾经沧海 (Once in the Sea) </li>
+                    <li>28:30 随风 (Along with the Wind) </li>
+                    <li>32:12 避难所 (Refuge) </li>
+                    <li>51:10 影 (Shadow) </li>
+                    <li>1:00:30 触不可及 (Out of Reach) </li>
+                    <li>1:13:10 谢谢你听过我唱的这些歌 (Thank you for listening to me sing these songs) </li>
+                    <li>1:28:10 大鱼 (Big Fish) </li>
+                    <li>1:45:27 不想睡 (Don't Want to Sleep) </li>
+                </ul>
+            </section>
+        </div>
+        <div class="container">
+            <img src="src/img/c929.jpg" alt="Planet C-929" loading="lazy" onclick="showDetails('c929')">
+            <section class="concert" id="c929">
+                <h2>Planet C-929 Concert Tour</h2>
+                <p class="date">9th November 2019 - 4th January 2020</p>
+                <div class="concert_details">
+                    <p>Planet C-929 was announced on 12th September 2019. C-929 was inspired by Zhou Shen's english name, Charlie as well as his birthday which is the 9th of September. The planet was inspired by a fairytale that Zhou Shen has always liked, "The Little Prince". </p>
+                    <p>At the Guangzhou concert, it was annouced that 5 more concerts will be held in Wuhan, Guiyang, Qingdao, Hefei and Beijing. However, these concerts could not happen due to the Covid-19 pandemic. </p>
+                </div>
+                <h3>Concert Locations</h3>
+                <ul class="locations">
+                    <li>09 November 2019, Beijing</li>
+                    <li>16 November 2019, Nanjing</li>
+                    <li>30 November 2019, Shenzhen</li>
+                    <li>07 December 2019, Suzhou</li>
+                    <li>14 December 2019, Chengdu</li>
+                    <li>21 December 2019, Shanghai</li>
+                    <li>04 January  2020, Guangzhou</li>
+                </ul>
+            </section>
+        </div>
+        <div class="container">
+            <img src="src/img/skg.jpg" alt="深空间" loading="lazy" onclick="showDetails('skg')">
+            <section class="concert" id="skg">
+                <h2>深空间</h2>
+                <p class="date">May 2018 - 2019</p>
+                <div class="concert_details">
+                    <p>深空间 (literally 'Deep Space') is Zhou Shen's first ever concert. It started in May 2018, and was held throughout China. </p>
+                    <p>As part of the concert, there was also a Nanyang Khek Community Gift of Warm Charity Concert that was held in Singapore in 2019. This was also Zhou Shen's first time in Singapore. </p>
+                </div>
+
+                <h3>Concert Locations</h3>
+                <ul class="locations">
+                    <li>Shanghai</li>
+                    <li>Wuhan</li>
+                    <li>Chengdu</li>
+                    <li>Singapore</li>
+                    <li>Beijing</li>
+                    <li>Shenzhen</li>
+                    <li>Hangzhou</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_column">
+                <a href="/music.html"><h4 class="column_header">Songs</h4></a>
+                <a href="#">大鱼</a>
+                <a href="#">达拉崩吧</a>
+                <a href="#">Rubia</a>
+            </div>
+            <div class="footer_column">
+                <a href="/shows.html"><h4 class="column_header">Shows</h4></a>
+                <a href="#">Keep Running! (Season 10)</a>
+                <a href="#">Our Song (Season 1)</a>
+                <a href="#">Voice of China (Season 3)</a>
+            </div>
+            <div class="footer_column">
+                <a href="/concerts.html"><h4 class="column_header">Concerts</h4></a>
+                <a href="/concerts.html#tme">TME "Goodnight, See You Tomorrow" Online Concert</a>
+                <a href="/concerts.html#c929">Planet C-929 Concert Tour</a>
+                <a href="/concerts.html#skg">深空间</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 周深工作室</p>
+    </footer>
+</body>
+</html>
