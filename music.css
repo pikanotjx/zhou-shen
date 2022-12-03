@@ -18,6 +18,7 @@ body {
     font-family: 'ZCOOL KuaiLe', sans-serif;
     font-size: 30px;
     border-radius: 10px;
+    margin-bottom: 40px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -48,6 +49,9 @@ body {
 @media (any-hover: none) {
 .music_content:hover {
     background-color: transparent;
+}
+.music_content:hover .music_options span {
+    color: transparent;
 }
 
 .music_page {
