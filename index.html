@@ -15,7 +15,7 @@
     <script type="text/javascript" src="myscripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat&family=Roboto&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit&family=Long+Cang&family=Montserrat&family=Nerko+One&family=Roboto&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Create site header -->
@@ -69,11 +69,11 @@
                     let clip2 = document.querySelector("#v2");
     
                     clip2.addEventListener("mouseenter", function(e) {
-                    clip2.play();
+                        clip2.play();
                     })
     
                     clip2.addEventListener("mouseout", function(e) {
-                    clip2.pause();
+                        clip2.pause();
                     })
                 </script>
             </figure>
@@ -140,9 +140,31 @@
 
         </section>
     </section>
+
     <section class="section3">
-        <section class="programs">
-        </section>
+    </section>
+
+    <section class="section2">
+        <section id="supportform">
+            <div class="sectiontext">
+                <h2>Send a Message!</h2>
+                <p>Zhou Shen has been known to never forget his fans. Every year on his birthday, he holds a livestream on Weibo for free in return for the continuous support from his fans. All emails sent through this form will be read. If you are lucky, you may also get a response!</p>
+            </div>
+            <form id="supportform">
+                <label>
+                    Name
+                <input type="text" name="name" required>
+                <br>
+                </label>
+                <label>
+                    Email
+                <input type="email" name="email" required>
+                </label>
+                <label>
+                    Message
+                <textarea name="message" rows="10" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </section>
 
@@ -151,8 +173,8 @@
         <div class="footer_content">
             <div class="footer_column">
                 <a href="/music.html"><h4 class="column_header">Songs</h4></a>
-                <a href="#">大鱼</a>
-                <a href="#">达拉崩吧</a>
+                <a href="#" class="chinese">大鱼</a>
+                <a href="#" class="chinese">达拉崩吧</a>
                 <a href="#">Rubia</a>
             </div>
             <div class="footer_column">
@@ -165,10 +187,10 @@
                 <a href="/concerts.html"><h4 class="column_header">Concerts</h4></a>
                 <a href="/concerts.html#tme">TME "Goodnight, See You Tomorrow" Online Concert</a>
                 <a href="/concerts.html#c929">Planet C-929 Concert Tour</a>
-                <a href="/concerts.html#skg">深空间</a>
+                <a href="/concerts.html#skg" class="chinese">深空间</a>
             </div>
         </div>
-        <p class="copyright">&copy; 周深工作室</p>
+        <p class="copyright chinese">&copy; 周深工作室</p>
     </footer>
 </body>
 </html>
