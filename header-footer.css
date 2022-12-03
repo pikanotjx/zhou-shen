@@ -3,6 +3,14 @@
     background-color: transparent;
 }
 
+.chinese {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+.english {
+    font-family: 'Indie Flower', cursive;
+}
+
 h1{
     margin: 30px;
 }
@@ -43,7 +51,7 @@ html, body {
 
 .menu,
 .overlay__content a {
-    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-family: 'Indie Flower', cursive;
     font-weight: 500;
     color: #edf0f1;
     text-decoration: none;
@@ -119,7 +127,7 @@ html, body {
 
 footer {
     background-color: rgb(36, 37, 42);
-    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-family: 'Indie Flower', cursive;
     padding: 1vh 5vw;
 }
 
