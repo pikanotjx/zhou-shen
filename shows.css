@@ -1,0 +1,51 @@
+body {
+    background-color: #43444c;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% 2%;
+    gap: 2%;
+    justify-content: space-around;
+    row-gap: 2%;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.content {
+    padding: 2px 16px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.content h2 {
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.year {
+    font-size: 15px;
+    color: rgb(97, 94, 94)
+}
