@@ -26,6 +26,13 @@ img {
     width: inherit;
 }
 
+iframe {
+    padding-right: 5%;
+    height: 25vw;
+    width: auto;
+    aspect-ratio: 16/9;
+}
+
 .concert {
     margin-bottom: 5%;
     padding-left: 30%;
@@ -47,4 +54,41 @@ img {
 .concert_details {
     margin-bottom: 2rem;
     width: 70%;
+}
+
+@media screen and (max-width: 930px)
+{
+    img {
+        width: 30%;
+        position: relative;
+    }
+    .concert {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .concert_details {
+        width: 100%;
+    }
+    iframe {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 100%;
+        margin: 0;
+        border-radius: 10% 10% 0 0;
+    }
+    .concert {
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 0 0 10% 10%;
+    }
 }
