@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="header-footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="myscripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,21 +21,14 @@
     <!-- Create site header -->
     <header>
         <a href="/" class="zhoushen-title"><h1>周深</h1></a>
-        <nav>
-            <ul class="navbar">
-                <li><a href="\music.html">Songs</a></li>
-                <li><a href="#">Shows</a></li>
-                <li><a href="#">Concert</a></li>
-            </ul>
-        </nav>
         <button onclick="openMenu()" class="menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
     </header>
     <div id="mobile__menu" class="overlay">
         <button onclick="openMenu()" class="close">&times;</button>
         <div id="overlay" class="overlay__content">
-            <a href="\music.html">Songs</a>
+            <a href="/music.html">Songs</a>
             <a href="#">Shows</a>
-            <a href="#">Concerts</a>
+            <a href="/concerts.html">Concerts</a>
         </div>
     </div>
 
@@ -44,7 +36,7 @@
     <section class="section1">
         <section class="album_section">
             <figure class="album">
-                <a href="/song-details/template.html" class="album_pic"><img src="src/img//music/bu_jian_jiu_san.jpg" loading="lazy"></a>
+                <a href="#" class="album_pic"><img src="src/img//music/bu_jian_jiu_san.jpg" loading="lazy"></a>
                 <h3 class="music_text">不见就散</h3>
             </figure>
             <figure class="album">
@@ -169,10 +161,10 @@
                 <a href="#">Voice of China (Season 3)</a>
             </div>
             <div class="footer_column">
-                <a href="#"><h4 class="column_header">Concerts</h4></a>
-                <a href="#">TME "Goodnight, See You Tomorrow" Online Concert</a>
-                <a href="#">Planet C-929 Concert Tour</a>
-                <a href="#">深空间</a>
+                <a href="/concerts.html"><h4 class="column_header">Concerts</h4></a>
+                <a href="/concerts.html#tme">TME "Goodnight, See You Tomorrow" Online Concert</a>
+                <a href="/concerts.html#c929">Planet C-929 Concert Tour</a>
+                <a href="/concerts.html#skg">深空间</a>
             </div>
         </div>
         <p class="copyright">&copy; 周深工作室</p>

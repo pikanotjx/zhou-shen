@@ -1,3 +1,7 @@
+body { 
+    background-color: #43444c;
+}
+
 .music_page {
     padding: 5vh 5vw;
     display: flex;
@@ -6,7 +10,6 @@
     gap: 2vw;
     justify-content: space-around;
 }
-
 
 .music_content {
     width: 260px;
@@ -64,5 +67,6 @@
     color: black;
     position: relative;
     top: 70%;
+    text-align: center;
 }
 }

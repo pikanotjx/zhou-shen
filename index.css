@@ -21,7 +21,7 @@ h2 {
 }
 
 .section2 {
-    background-color: #24252a;
+    background-color: #43444c;
     height: fit-content;
     
 }
@@ -79,7 +79,6 @@ h2 {
     background-attachment: fixed;
     background-position: center;
     height: 120vh;
-    width: 100vw;
     margin: 0;
     padding: 0;
 }
@@ -125,6 +124,10 @@ h2 {
 }
 
 @media screen and (max-width: 820px) {
+    .section_header {
+        font-size: 40px;
+    }
+
     .section1 {
         background-image: url("/src/img/zhoushenhighres3_mobile.jpg") cover;
         -webkit-background-size:cover;
