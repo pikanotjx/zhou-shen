@@ -9,7 +9,7 @@ body {
 main {
     padding: 5vh 5vw;
     min-height: 100vh;
-    color: transparent;
+    color: white;
     align-items: center;
 }
 
@@ -41,19 +41,8 @@ img {
     
 }
 
-.concert iframe {
-    opacity: 0;
-}
-
-.concert:hover iframe {
-    opacity: 1;
-}
-
-.concert:hover {
-    color: white;
-}
-
 .date {
+    color: rgb(180, 178, 178);
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
