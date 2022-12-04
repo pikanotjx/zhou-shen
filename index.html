@@ -65,6 +65,15 @@
             <figure class="performancedetails">
                 <video class="perf_video" id="v2" src="src/videos/dalabengba.mp4" loop></video>
                 <script>
+                    let clip2 = document.querySelector("#v2");
+                    
+                    clip2.addEventListener("mouseenter", function(e) {
+                    clip2.play();
+                    })
+
+                    clip2.addEventListener("mouseout", function(e) {
+                    clip2.pause();
+                    })
                 </script>
             </figure>
 
