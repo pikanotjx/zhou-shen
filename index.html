@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="header-footer.css">
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit&family=Long+Cang&family=Montserrat&family=Nerko+One&family=Roboto&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
@@ -32,23 +32,23 @@
     </div>
 
     <!-- Create site main -->
-    <section class="section1">
-        <section class="album_section">
+    <div class="section1">
+        <div class="album_section">
             <figure class="album">
-                <a href="#" class="album_pic"><img src="src/img//music/bu_jian_jiu_san.jpg" loading="lazy"></a>
+                <a href="#" class="album_pic"><img src="src/img//music/bu_jian_jiu_san.jpg" loading="lazy" alt=""></a>
                 <h3 class="music_text">不见就散</h3>
             </figure>
             <figure class="album">
-                <a href="#" class="album_pic"><img src="src/img//music/shen_de_shen_album.jpg" loading="lazy"></a>
+                <a href="#" class="album_pic"><img src="src/img//music/shen_de_shen_album.jpg" loading="lazy" alt=""></a>
                 <h3 class="music_text">深的深</h3>
             </figure>
-        </section>
-    </section>
+        </div>
+    </div>
     <section class="section2">
         <h2 class="section_header">Performances</h2>
-        <section class="performances">
+        <div class="performances">
             <figure class="performancedetails">
-                <video class="perf_video" id="v1" src="src/videos/chase.mp4" type="video/mp4" loop loading="lazy"></video>
+                <video class="perf_video" id="v1" src="src/videos/chase.mp4" loop></video>
                 <script>
                     let clip1 = document.querySelector("#v1");
     
@@ -63,7 +63,7 @@
             </figure>
 
             <figure class="performancedetails">
-                <video class="perf_video" id="v2" src="src/videos/dalabengba.mp4" type="video/mp4" loop loading="lazy"></video>
+                <video class="perf_video" id="v2" src="src/videos/dalabengba.mp4" loop></video>
                 <script>
                     let clip2 = document.querySelector("#v2");
     
@@ -78,7 +78,7 @@
             </figure>
 
             <figure class="performancedetails">
-                <video class="perf_video" id="v3" src="src/videos/yilushenghua.mp4" type="video/mp4" loop loading="lazy"></video>
+                <video class="perf_video" id="v3" src="src/videos/yilushenghua.mp4" loop></video>
                 <script>
                     let clip3 = document.querySelector("#v3");
                     
@@ -93,7 +93,7 @@
             </figure>
 
             <figure class="performancedetails">
-                <video class="perf_video" id="v4" src="src/videos/gotit.mp4" type="video/mp4" loop loading="lazy"></video>
+                <video class="perf_video" id="v4" src="src/videos/gotit.mp4" loop></video>
                 <script>
                     let clip4 = document.querySelector("#v4");
     
@@ -108,7 +108,7 @@
             </figure>
 
             <figure class="performancedetails">
-                <video class="perf_video" id="v5" src="src/videos/monsters.mp4" type="video/mp4" loop loading="lazy"></video>
+                <video class="perf_video" id="v5" src="src/videos/monsters.mp4" loop></video>
                 <script>
                     let clip5 = document.querySelector("#v5");
                     
@@ -123,7 +123,7 @@
             </figure>
 
             <figure class="performancedetails">
-                <video class="perf_video" id="v6" src="src/videos/bigfish.mp4" type="video/mp4" loop loading="lazy"></video>
+                <video class="perf_video" id="v6" src="src/videos/bigfish.mp4" loop></video>
                 <script>
                     let clip6 = document.querySelector("#v6");
                     
@@ -137,11 +137,10 @@
                 </script>
             </figure>
 
-        </section>
+        </div>
     </section>
 
-    <section class="section3">
-    </section>
+    <div class="section3"></div>
 
     <section class="section2">
         <section id="supportform">
@@ -161,6 +160,7 @@
                 <label>
                     Message
                 <textarea name="message" rows="10" required></textarea>
+                </label>
                 <button type="submit">Send</button>
             </form>
         </section>
