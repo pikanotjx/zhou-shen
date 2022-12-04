@@ -15,7 +15,7 @@ This website was created from the point of view of Zhou Shen's Studio. The goal 
 There are 5 pages in the website as follows: 
 - Homepage
   - This mainly shows videos of some of Zhou Shen's most popular performances and songs. 
-  - A form to send messages is also available along with his social links. 
+  - A form to send messages is also available. 
 
 - Songs
   - This showcases all of Zhou Shen's singles. 
