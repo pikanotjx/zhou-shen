@@ -12,15 +12,26 @@ This website was created from the point of view of Zhou Shen's Studio. The goal 
 
 ## Pages
 
-There are 4 main pages in the website as follows: 
+There are 5 pages in the website as follows: 
 - Homepage
   - This mainly shows videos of some of Zhou Shen's most popular performances and songs. 
+  - A form to send messages is also available along with his social links. 
+
 - Songs
   - This showcases all of Zhou Shen's singles. 
+
 - Shows
   - This shows most of the variety/reality shows that Zhou Shen has taken part in. 
+
 - Concerts
   - This shows the concerts that Zhou Shen has held thus far. 
+
+- 深的深 page
+  - This shares more about the album, and also allows users to play the songs in the album. 
+
+- 勤深深 page
+  - This shares more about Zhou Shen and Hacken Lee as a duo, and also allows users to play the songs that they sang together. 
+
 
 ## Conclusion
 
