@@ -137,6 +137,7 @@ h2 {
     position: relative;
     display: flex;
     flex-direction: column;
+    font-family: 'Indie Flower', cursive;
 }
 
 #supportform label {
@@ -176,13 +177,13 @@ h2 {
     margin: 10px;
     border-radius: 10px;
     border: none;
-    background-color: #43444c;
+    background-color: #232327;
     color: white;
     font-size: 20px;
 }
 
 #supportform button:hover {
-    background-color: #2f3036;
+    background-color: #35373a;
     transition: ease-in 0.2s;
 }
 
