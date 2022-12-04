@@ -44,6 +44,7 @@ body {
 .music_text {
     position: absolute;
     padding: 0 10px;
+    text-align: center;
 }
 
 @media (any-hover: none) {
