@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周深 - 歌曲</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+    <script src="https://use.fontawesome.com/bab85aac4f.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="shendeshen.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit&family=Long+Cang&family=Montserrat&family=Nerko+One&family=Roboto&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Create site header -->
+    <header>
+        <a href="/" class="zhoushen-title"><h1>周深</h1></a>
+        <button onclick="openMenu()" class="menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <button onclick="openMenu()" class="close">&times;</button>
+        <div id="overlay" class="overlay__content">
+            <a href="/music.html">Songs</a>
+            <a href="/shows.html">Shows</a>
+            <a href="/concerts.html">Concerts</a>
+        </div>
+    </div>
+    <!-- Create main content -->
+    <img class="headerphoto" src="/src/img/shendeshenbanner.jpg" alt="深的深">
+
+    <div class="content">
+
+        <p><span class=chinese>深的深</span> is Zhou Shen's debut album released on 6th November 2017. </p>
+        <p>The album was produced by Yin Yue, Gao Xiao Song, Qian Lei</p>
+        <p>In multiple interviews, Zhou Shen has credited his success in the music industry to Gao Xiao Song. This is because after getting disqualified in the second round of The Voice of China, Zhou Shen had no intentions of pursuing a singing career. However, it was Gao Xiao Song who reached how to him and made him go after his dreams after seeing his talent on the very same show. </p>
+        <ol>
+            <li><span class="chinese">玫瑰与小鹿</span> (The Rose and the Deer)</li>  <audio controls src="src/rosedeer.mp3"></audio>
+            <li><span class="chinese">浅浅</span> (Shallow)</li> <audio controls src="src/shallow.mp3"></audio>
+            <li><span class="chinese">哥哥</span> (Brother)</li> <audio controls src="src/brother.mp3"></audio>
+            <li><span class="chinese">迎刃</span> (Towards the Blade)</li> <audio controls src="src/blade.mp3"></audio>
+            <li><span class="chinese">蓝色降落伞</span> (Blue Parachute)</li> <audio controls src="src/blueparachute.mp3"></audio>
+            <li><span class="chinese">风景</span> (Scenery)</li> <audio controls src="src/scenery.mp3"></audio>
+            <li><span class="chinese">你</span> (You)</li> <audio controls src="src/you.mp3"></audio>
+            <li><span class="chinese">白墙</span> (White Wall)</li> <audio controls src="src/whitewall.mp3"></audio>
+            <li><span class="chinese">大鱼</span> (Big Fish)</li> <audio controls src="src/BigFish.mp3"></audio>
+            <li><span class="chinese">一缕执念</span> (A Wisp of Fascination)</li> <audio controls src="src/awisp.mp3"></audio>
+    </div>
+
+    <!-- Create site footer -->
+    <footer>
+        <div class="footer_content">
+            <div class="footer_column">
+                <a href="/music.html"><h4 class="column_header">Songs</h4></a>
+                <a href="/music.html#guangliang" class="chinese">光亮</a>
+                <a href="/music.html#rubia">Rubia</a>
+                <a href="/music.html#chinabirthday" class="chinese">今天是你的生日，中国</a>
+            </div>
+            <div class="footer_column">
+                <a href="/shows.html"><h4 class="column_header">Shows</h4></a>
+                <a href="/shows.html#keeprunning">Keep Running! (Season 10)</a>
+                <a href="/shows.html#oursong">Our Song (Season 1)</a>
+                <a href="/shows.html#voice">Voice of China (Season 3)</a>
+            </div>
+            <div class="footer_column">
+                <a href="/concerts.html"><h4 class="column_header">Concerts</h4></a>
+                <a href="/concerts.html#tme">TME "Goodnight, See You Tomorrow" Online Concert</a>
+                <a href="/concerts.html#c929">Planet C-929 Concert Tour</a>
+                <a href="/concerts.html#skg" class="chinese">深空间</a>
+            </div>
+        </div>
+        <p class="copyright chinese">&copy; 周深工作室</p>
+    </footer>
+    <script src="myscripts.js"></script>
+</body>
+</html>

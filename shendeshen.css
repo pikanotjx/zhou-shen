@@ -1,0 +1,32 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 1000;
+    font-size: 30px;
+    background-color: #43444c;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    padding: 0 5%;
+}
+
+.chinese {
+    font-weight: 100;
+}
+
+.headerphoto {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+audio {
+    width: 50%;
+    padding: 10px;
+}
