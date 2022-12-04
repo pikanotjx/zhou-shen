@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周深 - 歌曲</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+    <script src="https://use.fontawesome.com/bab85aac4f.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="qinshenshen.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit&family=Long+Cang&family=Montserrat&family=Nerko+One&family=Roboto&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Create site header -->
+    <header>
+        <a href="/" class="zhoushen-title"><h1>周深</h1></a>
+        <button onclick="openMenu()" class="menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <button onclick="openMenu()" class="close">&times;</button>
+        <div id="overlay" class="overlay__content">
+            <a href="/music.html">Songs</a>
+            <a href="/shows.html">Shows</a>
+            <a href="/concerts.html">Concerts</a>
+        </div>
+    </div>
+    <!-- Create main content -->
+    <img class="headerphoto" src="/src/img/qinshenshenbanner.jpg" alt="勤深深">
+
+    <div class="content">
+
+        <p><span class="chinese">勤深深</span> is a singer duo with <span class="chinese">勤</span> representing Hacken Lee (<span class="chinese">李克勤</span>) and <span class="chinese">深深</span> representing Zhou Shen. </p>
+        <p>The group was formed as part of the show Our Song in 2019. </p>
+        <p>Through the show, the duo sang covers of multiple songs including 追 (Chase), <span class="chinese">天下有情人</span> (Lovers Under the Sky)</p> and some other significant pieces including Hacken Lee's songs. </p>
+        <p>At the end of the show, thanks to their overwhelming popularity, the duo was crowned the Golden Duo. They also returned in the next season to perform 2 more songs. </p>
+        <ol>
+            <li><span class="chinese">突如其来的爱</span> (Sudden Love)</li>  <audio controls src="src/suddenlove.mp3"></audio>
+            <li><span class="chinese">富士山下</span> (Below Mount Fuji)</li> <audio controls src="src/fuji.mp3"></audio>
+            <li><span class="chinese">天下有亲人</span> (Lovers Under the Sky)</li> <audio controls src="src/lovers.mp3"></audio>
+            <li><span class="chinese">那片海</span> (That Sea)</li> <audio controls src="src/sea.mp3"></audio>
+            <li><span class="chinese">月半小夜曲</span></li> <audio controls src="src/moon.mp3"></audio>
+            <li><span class="chinese">追</span> (Chase)</li> <audio controls src="src/chase.mp3"></audio>
+            <li><span class="chinese">大会堂给演奏厅</span> </li> <audio controls src="src/hall.mp3"></audio>
+            <li><span class="chinese">画</span> (Drawing)</li> <audio controls src="src/draw.mp3"></audio>
+            <li><span class="chinese">心如刀割</span></li> <audio controls src="src/knife.mp3"></audio>
+            <li><span class="chinese">野狼</span> Disco (A Wisp of Fascination)</li> <audio controls src="src/disco.mp3"></audio>
+            <li><span class="chinese">不见就散</span></li> <audio controls src="src/bujianjiusan.mp3"></audio>
+            <li><span class="chinese">你的名字我的姓氏</span></li> <audio controls src="src/yourname.mp3"></audio>
+            <li><span class="chinese">希望</span> (Hope)</li> <audio controls src="src/hope.mp3"></audio>
+    </div>
+
+    <!-- Create site footer -->
+    <footer>
+        <div class="footer_content">
+            <div class="footer_column">
+                <a href="/music.html"><h4 class="column_header">Songs</h4></a>
+                <a href="/music.html#guangliang" class="chinese">光亮</a>
+                <a href="/music.html#rubia">Rubia</a>
+                <a href="/music.html#chinabirthday" class="chinese">今天是你的生日，中国</a>
+            </div>
+            <div class="footer_column">
+                <a href="/shows.html"><h4 class="column_header">Shows</h4></a>
+                <a href="/shows.html#keeprunning">Keep Running! (Season 10)</a>
+                <a href="/shows.html#oursong">Our Song (Season 1)</a>
+                <a href="/shows.html#voice">Voice of China (Season 3)</a>
+            </div>
+            <div class="footer_column">
+                <a href="/concerts.html"><h4 class="column_header">Concerts</h4></a>
+                <a href="/concerts.html#tme">TME "Goodnight, See You Tomorrow" Online Concert</a>
+                <a href="/concerts.html#c929">Planet C-929 Concert Tour</a>
+                <a href="/concerts.html#skg" class="chinese">深空间</a>
+            </div>
+        </div>
+        <p class="copyright chinese">&copy; 周深工作室</p>
+    </footer>
+    <script src="myscripts.js"></script>
+</body>
+</html>
